@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">PM</string>
+	
+    <string name="db_name">PrivateMessage</string>
+	
+    <string name="msglist_title">Message List</string>
+</resources>

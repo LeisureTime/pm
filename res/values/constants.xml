@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label1">Nick Name</string>
+    <string name="label2">Compose Message (60 Chars Max)</string>
+    <string name="label3">SMS this..</string>
+    <string name="label4">Decrypt</string>
+    <string name="label5">Encrypted text - AES (128bit)</string>
+    <string name="label6">SMS this..</string>
+</resources>

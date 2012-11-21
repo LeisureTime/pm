@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/inboxBt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inbox" />
+
+                <Button
+                    android:id="@+id/settingBt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="190dp"
+                    android:text="Settings" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label2" />
+
+            <TextView
+                android:id="@+id/repliedTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="119dp"
+                android:background="#808080"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/messageText"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:background="#FFFFFF"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:maxLength="60"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/spreadWordBt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label6" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/nickNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Nick Name"
+        android:textSize="15sp" />
+    
+     <EditText
+        android:id="@+id/nickNameText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:inputType="textPersonName"
+        android:textColor="#000000" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/passwordlB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/nickNameLabel"
+        android:layout_marginTop="14dp"
+        android:text="Password"
+        android:textSize="15sp" />
+ <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/passwordlB"
+        android:background="#FFFFFF"
+        android:inputType="textPassword"
+        android:textColor="#000000" />
+    
+    <TextView
+        android:id="@+id/confirmpasswordlB"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/nickNameLabel"
+        android:layout_below="@+id/passwordlB"
+        android:layout_marginTop="14dp"
+        android:gravity="left"
+        android:text="Confirm Password"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/confirmpasswordText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/confirmpasswordlB"
+        android:background="#FFFFFF"
+        android:inputType="textPassword"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/frm_signupBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/confirmpasswordText"
+        android:layout_below="@+id/confirmpasswordText"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="31dp"
+        android:text="Sign Up" />
+
+</RelativeLayout>
